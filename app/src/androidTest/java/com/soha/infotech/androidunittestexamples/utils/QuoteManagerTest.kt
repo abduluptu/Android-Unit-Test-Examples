@@ -16,14 +16,6 @@ import java.io.FileNotFoundException
 
 class QuoteManagerTest {
 
-    /*@Before
-    fun setUp() {
-    }
-
-    @After
-    fun tearDown() {
-    }*/
-
     @Test(expected = FileNotFoundException::class)
     fun populateQuoteFromAssets() {
         // Arrange
